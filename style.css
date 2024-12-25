@@ -1,0 +1,28 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.responsive-container {
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .responsive-container {
+        padding: 15px;
+    }
+
+    select {
+        height: auto;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
